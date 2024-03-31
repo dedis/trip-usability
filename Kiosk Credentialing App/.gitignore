@@ -1,0 +1,7 @@
+__pycache__/
+checkin/
+envelopes/
+.idea
+participants
+logs
+**.env

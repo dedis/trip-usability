@@ -1,0 +1,234 @@
+{
+  "Window": {
+    "Title": "Online Voting Signup"
+  },
+  "StartFacilitator": {
+    "Heading": "Kiosk Locked",
+    "SubHeading": "Please contact a facilitator to unlock the kiosk"
+  },
+  "Start": {
+    "Heading": "Welcome!",
+    "SubHeading": "<p style=\"line-height:115%;\">Press \"Start\" to Begin<br/> the Online Voting Signup Process</p>",
+    "B_Ok": "Start"
+  },
+  "RealCredentialIntro": {
+    "Heading": "[|Real ]Voting Credential",
+    "Body": "<p style=\"line-height:110%;\">We will now create a [|<span style=\"font-weight:550;\">real</span>] voting credential.<br/>You will use this credential to cast votes[| that count] in elections.</p>",
+    "B_Ok": "Next"
+  },
+  "RealCredentialIntro2": {
+    "Heading": "[|Real ]Voting Credential",
+    "Body": "After creating your[| <span style=\"font-weight:550;\">real</span>] voting credential:<br/><br/>   \u2022 Keep the credential safe.<br/>   \u2022 Activate it for voting on a device you trust.<br/>   \u2022 Never give your credential to anyone else.",
+    "B_Left": "Back",
+    "B_Right": "Next"
+  },
+  "RealCredentialCreateInfo": {
+    "Title": "[|Real ]Voting Credential Steps Overview",
+    "Heading": "[|Real ]Voting Credential",
+    "Step1": "<p style=\"line-height:110%;\"><u>Step 1:</u><br/><span style=\"font-weight:550;\">You</span> scan your check-in ticket.</p>",
+    "Step2": "<p style=\"line-height:110%;\"><u>Step 2:</u><br/><span style=\"font-weight:550;\">Kiosk</span> prints a symbol and<br/>one QR code.</p>",
+    "TearWarning": "<span style=\"color: red;\">Do <em>NOT</em> remove the receipt yet</span>",
+    "Step3": "<p style=\"line-height:110%;\"><u>Step 3</u>:<br/><span style=\"font-weight:550;\">You</span> pick<br/>and scan an envelope with the <span style=\"font-weight:550;\">same symbol</span> as the receipt.</p>",
+    "Step4": "<p style=\"line-height:110%;\"><u>Step 4</u>:<br/><span style=\"font-weight:550;\">Kiosk</span> prints the rest of your receipt.</p>",
+    "B_Left": "Back",
+    "B_Right": "Begin"
+  },
+  "RealCredentialStepsQuiz": {
+    "Heading": "Quiz!",
+    "Body": "<p style=\"line-height:110%;\">While creating your [|<span style=\"font-weight: 550\">real</span> ]voting credential,<br/>when do you pick and scan an envelope to the kiosk?<br/>(Check all that apply)</p>",
+    "Body_Font_Size": "42pt",
+    "Options": [
+      " After a symbol and three QR codes are printed",
+      " After a symbol and one QR code is printed",
+      " Before anything is printed"
+    ],
+    "CorrectOptions": [
+      " After a symbol and one QR code is printed"
+    ],
+    "B_Submit": "Submit"
+  },
+  "RealCredentialStepsQuizResult": {
+    "Heading": "Quiz Result",
+    "SubHeading": "<p style=\"line-height:110%;\">While creating your [|<span style=\"font-weight: 550\">real</span> ]voting credential,<br/>when do you pick and scan an envelope to the kiosk?</p>",
+    "SubHeading_Font_Size": "42pt",
+    "Body": "<p style=\"line-height:110%;\">Only when the kiosk prints a <span style=\"font-weight: 550\">symbol</span> and <span style=\"font-weight: 550\">one QR code</span>, otherwise report this kiosk to the nearest government official.</p>",
+    "Body_Font_Size": "42pt",
+    "B_Ok": "Continue"
+  },
+  "CheckIn": {
+    "Heading": "Create Your [Voting|Real] Credential[<br/><span style=\"font-weight:550\">Step 1</span>$]",
+    "SubHeading": "Please Scan Your Check-In Ticket"
+  },
+  "RealCredentialFirstPrint": {
+    "Heading": "Create Your [Voting|Real] Credential[<br/><span style=\"font-weight:550\">Step 2</span>$]",
+    "Body": "<p style=\"line-height:110%;\">Confirm that the receipt printer has printed a ? and <span style=\"font-weight:550\">one QR code</span>.</p>",
+    "TearWarning": "<span style=\"color: red;\">Do <em>NOT</em> remove<br/>the receipt yet</span>",
+    "B_Ok": "Confirm"
+  },
+  "RealCredentialScanEnvelope": {
+    "Heading": "Create Your [Voting|Real] Credential[<br/><span style=\"font-weight:550\">Step 3</span>$]",
+    "SubHeading": "<span style=\"font-weight:550\">Choose and Scan</span> an Envelope[<br/>with a ?$]"
+  },
+  "RealCredentialScanEnvelopeError": {
+    "Heading": "Create Your [Voting|Real] Credential[<br/><span style=\"font-weight:550\">Step 3</span>$]",
+    "Body": "<p style=\"line-height:110%;\">You have scanned an <span style=\"font-weight:550\">envelope</span> containing a ?, which does not match with the ? printed on the <span style=\"font-weight:550\">receipt</span>.<br/><br/>Press \"Continue\" to scan another envelope.</p>",
+    "B_Ok": "Continue"
+  },
+  "RealCredentialSecondPrint": {
+    "Heading": "Create Your [Voting|Real] Credential[<br/><span style=\"font-weight:550\">Step 4</span>$]",
+    "Body": "<p style=\"line-height:110%;\">Confirm that the receipt printer has printed <span style=\"font-weight:550\">two more QR codes</span>.</p>",
+    "B_Ok": "Confirm"
+  },
+  "RealCredentialFinalize": {
+    "Heading": "Complete Your [Voting|Real] Credential",
+    "Step1": "<p style=\"line-height:110%;\">Remove the receipt from the receipt printer.</p>",
+    "Step2": "<p style=\"line-height:110%;\">Then insert the receipt into the envelope.</p>",
+    "B_Ok": "Continue"
+  },
+  "RealCredentialSuccess": {
+    "Heading": "Mark Your [Voting|Real] Credential",
+    "Body": "<p style=\"line-height:110%;\">Using the supplied pen, <span style=\"font-weight:550\">mark</span> your<br/>[|<span style=\"font-weight:550\">real</span> ]voting credential to [personalize your credential|help you remember later that is your <span style=\"font-weight:550\">real</span> credential].</p>",
+    "Body_CSS": "qproperty-alignment: AlignCenter;",
+    "B_Left": "Back",
+    "B_Right": "Marked"
+  },
+  "DiscardCheckInTicket": {
+    "Heading": "Checked-In!",
+    "SubHeading": "Throw Away Your Check-In Ticket",
+    "B_Left": "Back",
+    "B_Right": "Next"
+  },
+  "RealCredentialStorageQuiz": {
+    "Heading": "Quiz!",
+    "Body": "<p style=\"line-height:110%;\">What should you do with your [|<span style=\"font-weight:550\">real</span> ]voting credential <span style=\"font-weight:550\">after</span> leaving the government office?<br/>(Check all that apply)</p>",
+    "Body_Font_Size": "42pt",
+    "Body_CSS": "qproperty-alignment: AlignCenter;",
+    "Options": [
+      " Activate it yourself on a device that you trust",
+      " Give it to someone else to activate on my behalf"
+    ],
+    "CorrectOptions": [
+      " Activate it yourself on a device that you trust"
+    ],
+    "B_Submit": "Submit"
+  },
+  "RealCredentialStorageQuizResult": {
+    "Heading": "Quiz Result",
+    "SubHeading": "<p style=\"line-height:110%;\">What should you do with your [|<span style=\"font-weight:550\">real</span> ]voting credential <span style=\"font-weight:550\">after</span> leaving the government office?</p>",
+    "SubHeading_Font_Size": "42pt",
+    "Body": "<p style=\"line-height:110%;\">You must keep possession of your [|<span style=\"font-weight:550\">real</span>] voting credential and activate it on a device you trust for voting.</p>",
+    "Body_Font_Size": "42pt",
+    "B_Ok": "Continue"
+  },
+  "CoercionIntro": {
+    "Heading": "Coercion / Vote Buying",
+    "Body": "<p style=\"line-height:110%;\">Your [|<span style=\"font-weight:550\">real</span> ]voting credential is for your use alone.<br/><br/>It is illegal for anyone to ask for your [|<span style=\"font-weight:550\">real</span> ]credential, to offer money for it, or to pressure you to vote in any particular way.</p>",
+    "B_Ok": "Continue"
+  },
+  "TestCredentialIntro": {
+    "Heading": "<span style=\"font-weight:550\">Test</span> Voting Credential",
+    "Body": "<p style=\"line-height:110%;\">A <span style=\"font-weight:550\">test</span> credential looks like a real credential, but votes cast with a <span style=\"font-weight:550\">test</span> credential <span style=\"font-weight:550\">do not</span> count in elections.<br/><br/>You <span style=\"font-weight:550\">may</span> give or sell a <span style=\"font-weight:550\">test</span> credential to anyone, including someone trying to buy or coerce your vote.</p>",
+    "Body_Font_Size": "44pt",
+    "B_Left": "Back",
+    "B_Right": "Next"
+  },
+  "TestCredentialUsageQuiz": {
+    "Heading": "Quiz!",
+    "Body": "<p style=\"line-height:110%;\">Which of the following purposes can you use a <span style=\"font-weight:550\">test</span> credential for? (check all that apply)</p>",
+    "Body_Font_Size": "42pt",
+    "Body_CSS": "qproperty-alignment: AlignCenter;",
+    "Body_Height": 200,
+    "Label_Font_Size": 36,
+    "Options": [
+      " To teach kids about voting.",
+      " To resist pressure from someone to vote a particular way.",
+      " To sell to someone who offers to buy your real credential.",
+      " To cast a vote that counts in an election."
+    ],
+    "CorrectOptions": [
+      " To teach kids about voting.",
+      " To resist pressure from someone to vote a particular way.",
+      " To sell to someone who offers to buy your real credential."
+    ],
+    "B_Submit": "Submit"
+  },
+  "TestCredentialUsageQuizResult": {
+    "Heading": "Quiz Result",
+    "SubHeading": "<p style=\"line-height:110%;\">Which of the following purposes can you use a <span style=\"font-weight:550\">test</span> credential for?</p>",
+    "SubHeading_Font_Size": "42pt",
+    "Body": "<p style=\"line-height:110%;\">You may use a test credential to:<br/>\u2022 resist pressure from someone to vote a particular way.<br/>\u2022 sell to someone who offers to buy your real credential.<br/>\u2022 teach kids about voting.</p>",
+    "Body_Font_Size": "42pt",
+    "Body_CSS": "qproperty-alignment: AlignLeft;",
+    "B_Ok": "Continue"
+  },
+  "TestCredentialCreateQuestion": {
+    "Heading": "Test Voting Credential",
+    "Body": "Would you like to create a <span style=\"font-weight:550\">test</span> credential?",
+    "Body_CSS": "qproperty-alignment: AlignCenter;",
+    "B_Left": "No",
+    "B_Right": "Yes"
+  },
+  "TestCredentialSteps": {
+    "Heading": "Test Voting Credential Steps<br/> Overview",
+    "Step1": "<p style=\"line-height:110%;\"><u>Step 1:</u><br/><span style=\"font-weight:550\">You</span> pick and present an envelope to the kiosk</p>",
+    "Step2": "<p style=\"line-height:110%;\"><u>Step 2:</u><br/><span style=\"font-weight:550\">Kiosk</span> prints a receipt all at once.</p>",
+    "B_Ok": "Begin"
+  },
+  "TestCredentialEnvelope": {
+    "Heading": "Test Voting Credential<br/><span style=\"font-weight:550\">[Step 1$]</span>",
+    "SubHeading": "Choose and Scan ANOTHER Envelope"
+  },
+  "TestCredentialFinalize": {
+    "Heading": "Complete Test Credential<br/><span style=\"font-weight:550\">[Step 2$]</span>",
+    "Step1": "<p style=\"line-height:110%;\">Remove the receipt from the receipt printer.</p>",
+    "Step2": "<p style=\"line-height:110%;\">Then insert the receipt into the envelope.</p>",
+    "B_Ok": "Next"
+  },
+  "TestCredentialSuccess": {
+    "Heading": "Mark Your Test Credential",
+    "Body": "<p style=\"line-height:110%;\">Mark your <span style=\"font-weight:550\">test</span> voting credential with a pen<br/>so that you can distinguish it later from your<br/><span style=\"font-weight:550\">real</span> voting credential.<br/><br/>Proceed with creating another <span style=\"font-weight:550\">test</span> credential?</p>",
+    "B_Left": "No",
+    "B_Right": "Yes"
+  },
+  "CredentialDistinguishQuiz": {
+    "Heading": "Quiz!",
+    "Body": "<p style=\"line-height:110%;\">Who can distinguish your <span style=\"font-weight:550\">test</span> credential<br/>from your <span style=\"font-weight:550\">real</span> credential?<br/>(Check all that apply)</p>",
+    "Body_CSS": "qproperty-alignment: AlignCenter;",
+    "Options": [
+      " Anyone with a device.",
+      " Only myself with my pen markings."
+    ],
+    "CorrectOptions": [
+      " Only myself with my pen markings."
+    ],
+    "B_Submit": "Submit"
+  },
+  "CredentialDistinguishQuizResult": {
+    "Heading": "Quiz Result",
+    "SubHeading": "<p style=\"line-height:110%;\">Who can distinguish your <span style=\"font-weight:550\">test</span> credential<br/>from your <span style=\"font-weight:550\">real</span> credential?</p>",
+    "SubHeading_Font_Size": "42pt",
+    "Body": "Only you with your pen marks.",
+    "Body_Font_Size": "42pt",
+    "B_Ok": "Next"
+  },
+  "Finish": {
+    "Heading": "Successful Registration!",
+    "Body": "Take your credential with you to the check-out desk, and do not forget:<br/>\u2022 Activate your [|<span style=\"font-weight:550\">real</span> ]credential on a device you trust.<br/>\u2022 Never give your [|<span style=\"font-weight:550\">real</span> ]credential to anyone else.",
+    "Body_Font_Size": "42pt",
+    "B_Ok": "Finish"
+  },
+  "FinishWithTest": {
+    "Heading": "Successful Registration!",
+    "Body": "Take your credential[|s] with you to the check-out desk, and do not forget:<br/>\u2022 Activate your [|<span style=\"font-weight:550\">real</span> ]credential on a device you trust.<br/>\u2022 Your [|<span style=\"font-weight:550\">real</span> ]credential cast votes that count.<br/>[|\u2022 Your <span style=\"font-weight:550\">test</span> credential(s) cast votes that <span style=\"font-weight:550\">do not</span> count.<br/>\u2022 Your pen marks are the <span style=\"font-weight:550\">only</span> way to distinguish them.<br/>\u2022 Show <span style=\"font-weight:550\">any one</span> of your credentials at check-out.]",
+    "Body_Font_Size": "42pt",
+    "B_Ok": "Finish"
+  },
+  "GoToCheckOutDesk": {
+    "Heading": "Thank you for Registering!",
+    "Body": "Please go to the check-out desk and<br/> show [your voting credential|<span style=\"font-weight:550;\">any one</span> of your credentials].",
+    "Body_CSS": "qproperty-alignment: AlignCenter;",
+    "B_Ok": "Start",
+    "B_Hidden": 60000,
+    "Callback_After": 70000
+  }
+}
