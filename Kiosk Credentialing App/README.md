@@ -23,6 +23,8 @@ This application is a UI mockup of [TRIP](https://arxiv.org/abs/2202.06692) and 
    - `pyenv local venv`
 1. Install required packages
    - `pip install -r requirements.txt`
+1. Configure Application
+   - `cp .env.sample .env`
 1. Launch Application
    - `export PYTHONPATH=$(pwd)`
    - `python app/main.py --group 1` specifying the study group from 1 to 5

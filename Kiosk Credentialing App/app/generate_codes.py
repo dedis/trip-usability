@@ -27,7 +27,6 @@ def generate_envelopes(start, end, symbols):
 
     while index < end:
         result = index % len(symbols)
-        print(result)
         qr_code = QR.generate_qr(str(result) + "," + str(index))
         qr_code.save(os.path.join(envelope_path, str(index) + ".svg"))
         index += 1
