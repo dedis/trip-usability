@@ -545,7 +545,7 @@ def parse_cli_arguments():
     parser.add_argument('--video-source', action='store', default=0, help="Camera Video Source")
     parser.add_argument('--tk-wrap-length-short', action='store', default=315, help='Wrap Length Short')
     parser.add_argument('--tk-wrap-length-long', action='store', default=500, help='Wrap Length Long')
-    parser.add_argument('--group', action='store', help='For testing purposes, group number')
+    parser.add_argument('--group', action='store', help='For testing purposes, group number', required=True)
 
     # Scanner
     parser.add_argument('--input_handler', action='store', help='Scanner Input')
@@ -561,7 +561,8 @@ def load_environment_variables(parser_args):
     load_dotenv()
 
     # Language
-    parser_args.lang = os.getenv('LANG', 'en')
+    parser_args.lang = os.getenv('APP_LANG', 'en')
+    parser_args.font = os.getenv('FONT')
 
     # Scanner
     parser_args.input_handler = os.getenv('INPUT_HANDLER', 'keystrokes')
